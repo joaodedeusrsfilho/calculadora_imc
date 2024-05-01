@@ -80,7 +80,7 @@ input[type='reset']{
     }
 
     label{
-        font-size: 15pt;
+        font-size: 12pt;
         display: flex;
         justify-content: center;
     }
