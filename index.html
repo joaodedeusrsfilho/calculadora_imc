@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Descubra o seu IMC - Indice de massa corporal</h1>
+    <form action="" onsubmit="return calcularIMC(event)">
+        <label for="">Digite seu peso:</label><br>
+
+        <input type="text" name="peso" id="peso"><br>
+
+        <label for="">Digite sua altura:</label><br>
+        
+        <input type="text" name="altura" id="altura"><br>
+        
+        <input type="submit" value="Calcular IMC"><br>
+        
+        <input type="reset" value="Limpar Campos" onclick="limpar()">
+
+
+    </form>
+    <div id="resultado">
+        <h2>Resultado aqui...</h2>
+        
+    </div>
+    <div class="credito">
+        <h3>Desenvolvido por João de Deus</h3>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
